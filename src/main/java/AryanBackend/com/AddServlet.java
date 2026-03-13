@@ -22,8 +22,13 @@ public class AddServlet extends HttpServlet {
 //	    rd.forward(req,res);
 	    
 	    // another method to request data from the another servlet 
-	    HttpSession session =req.getSession();
-	    session.setAttribute("k", k);
+//	    HttpSession session =req.getSession();
+//	    session.setAttribute("k", k);
+	    
+	    // ## using  the cookie 
+	    
+	    Cookie cookie = new Cookie("k", k+"");
+	    res.addCookie(cookie);
 	    res.sendRedirect("square");
 	    
 	}}
