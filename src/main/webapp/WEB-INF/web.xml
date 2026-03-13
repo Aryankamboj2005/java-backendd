@@ -18,7 +18,7 @@ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
 </servlet-mapping>
 
 <!-- creating mappin for the square servet-->
-
+<!--  
 <servlet>
     <servlet-name>squareOfNumber</servlet-name>
     <servlet-class>AryanBackend.com.squareServlet</servlet-class>
@@ -28,6 +28,26 @@ http://java.sun.com/xml/ns/j2ee/web-app_2_4.xsd">
     <servlet-name>squareOfNumber</servlet-name>
     <url-pattern>/square</url-pattern>
 </servlet-mapping>
+ -->
 
+<servlet>
+    <servlet-name>myservlet</servlet-name>
+    <servlet-class>AryanBackend.com.Myservet</servlet-class>
+</servlet>
+
+<servlet-mapping>
+    <servlet-name>myservlet</servlet-name>
+    <url-pattern>/test</url-pattern>
+</servlet-mapping>
+<!--  storing dataName and its value  -->
+<context-param>
+   <param-name>Name</param-name>
+   <param-value>Aryan</param-value>
+</context-param>
+
+<context-param>
+   <param-name>Phone</param-name>
+   <param-value>Samsung</param-value>
+</context-param>
 
 </web-app>
