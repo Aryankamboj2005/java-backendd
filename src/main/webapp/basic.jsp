@@ -11,5 +11,8 @@
 <body>
   <%= 9999+1 %>
   <c:out value ="hello world"/> <!--  THIS IS THE OUTPUT -->
+   ${student.name} <!--  we get the needed data -->
+  <%-- <c:import url="https://www.youtube.com/watch?v=4XTsAAHW_Tc">< --%><!-- /c:import> --><!--  run the website in the
+    local host only the writen address for the url -->
 </body>
 </html>

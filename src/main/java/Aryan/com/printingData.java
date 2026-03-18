@@ -9,15 +9,16 @@ import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 
-@WebServlet("/printingData")
+@WebServlet("/printing")
 public class printingData extends HttpServlet {
 
     public void service(HttpServletRequest req, HttpServletResponse res)
             throws IOException, ServletException {
 
         String name = "Aryan";
+        getNameAndRollNo s = new getNameAndRollNo(1,"Aryan");
 
-        req.setAttribute("name", name);
+        req.setAttribute("student", s);
 
         RequestDispatcher rd = req.getRequestDispatcher("basic.jsp");
         rd.forward(req, res);
