@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <faceted-project>
+<<<<<<< HEAD
   <runtime name="apache-tomcat-10.1.36"/>
   <fixed facet="java"/>
   <fixed facet="jst.web"/>
@@ -7,4 +8,13 @@
   <installed facet="java" version="21"/>
   <installed facet="jst.web" version="5.0"/>
   <installed facet="wst.jsdt.web" version="1.0"/>
+=======
+  <runtime name="apache-tomcat-9.0.100"/>
+  <fixed facet="jst.web"/>
+  <fixed facet="wst.jsdt.web"/>
+  <fixed facet="java"/>
+  <installed facet="java" version="11"/>
+  <installed facet="wst.jsdt.web" version="1.0"/>
+  <installed facet="jst.web" version="4.0"/>
+>>>>>>> 80ebc85 (taking input from the user and send values to the filter servlet and then printing the data on the window)
 </faceted-project>

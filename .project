@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
 <<<<<<< HEAD
+<<<<<<< HEAD
 	<name>JSTL</name>
 =======
 	<name>DemoApp</name>
 >>>>>>> 940666811719da68fcbee14463e0a7bf991632c7
+=======
+	<name>learning</name>
+>>>>>>> 80ebc85 (taking input from the user and send values to the filter servlet and then printing the data on the window)
 	<comment></comment>
 	<projects>
 	</projects>
