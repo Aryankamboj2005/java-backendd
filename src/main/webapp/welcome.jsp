@@ -9,6 +9,8 @@
 <body>
 <%    
 
+response.setHeader("Cache-Control","no-cache, no-store, must-revalidate"); // this code is for that
+                           //after log out we cannot access the site using the broswer back button
 
      if(session.getAttribute("name")==null  ||session.getAttribute("id")==null ){
     	 response.sendRedirect("signup.jsp");

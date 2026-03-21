@@ -15,7 +15,7 @@ import com.mysql.cj.Session;
 @WebServlet("/login")
 public class login extends HttpServlet {
       
-	public void service(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+	public void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 	
 		
 		

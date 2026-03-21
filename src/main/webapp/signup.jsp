@@ -7,10 +7,10 @@
 <title>Insert title here</title>
 </head>
 <body>
-    <form action= "login"> <!-- taking input from the user and send values to the filter servlet 
+    <form action= "login"  method="post"> <!-- taking input from the user and send values to the filter servlet 
            and then printing the data on the window -->
     <input type= "text" name = "name"><br>
-     <input type="text"  name = "id"><br>
+     <input type="password"  name = "id"><br>
     <input type="submit"> <br>
     </form>
 </body>
