@@ -11,7 +11,8 @@
 
    <%    response.setHeader("Cache-Control","no-cache, no-store, must-revalidate"); //this code is for that
    //after log out we cannot access the site using the broswer back button
-
+response.setHeader("Pragma","no-cache"); // for older browsers
+response.setDateHeader("Expires", 0);    // proxy caching
 
      if(session.getAttribute("name")==null  ||session.getAttribute("id")==null ){
     	 response.sendRedirect("signup.jsp");
