@@ -1,18 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-<<<<<<< HEAD
 	<name>LOGIN</name>
-=======
-<<<<<<< HEAD
-<<<<<<< HEAD
-	<name>JSTL</name>
-=======
-	<name>DemoApp</name>
->>>>>>> 940666811719da68fcbee14463e0a7bf991632c7
-=======
-	<name>learning</name>
->>>>>>> 80ebc85 (taking input from the user and send values to the filter servlet and then printing the data on the window)
->>>>>>> 3980f4d918c8921bbc1dcc82e033cd932d89a869
 	<comment></comment>
 	<projects>
 	</projects>
@@ -32,15 +20,20 @@
 			<arguments>
 			</arguments>
 		</buildCommand>
+		<buildCommand>
+			<name>org.eclipse.m2e.core.maven2Builder</name>
+			<arguments>
+			</arguments>
+		</buildCommand>
 	</buildSpec>
 	<natures>
+		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 		<nature>org.eclipse.jem.workbench.JavaEMFNature</nature>
 		<nature>org.eclipse.wst.common.modulecore.ModuleCoreNature</nature>
 		<nature>org.eclipse.wst.common.project.facet.core.nature</nature>
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.wst.jsdt.core.jsNature</nature>
 	</natures>
-<<<<<<< HEAD
 	<filteredResources>
 		<filter>
 			<id>1774104202584</id>
@@ -52,6 +45,4 @@
 			</matcher>
 		</filter>
 	</filteredResources>
-=======
->>>>>>> 3980f4d918c8921bbc1dcc82e033cd932d89a869
 </projectDescription>
