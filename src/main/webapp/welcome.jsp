@@ -14,7 +14,7 @@ response.setHeader("Cache-Control","no-cache, no-store, must-revalidate"); // th
                            response.setHeader("Pragma","no-cache"); // for older browsers
 response.setDateHeader("Expires", 0);    // proxy caching
 
-     if(session.getAttribute("name")==null  ||session.getAttribute("id")==null ){
+     if(session.getAttribute("name")==null){
     	 response.sendRedirect("signup.jsp");
      }
     %>

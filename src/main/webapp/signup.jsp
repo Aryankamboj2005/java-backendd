@@ -4,14 +4,23 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Insert title here</title>
+<title>Login Page</title>
 </head>
 <body>
-    <form action= "login"  method="post"> <!-- taking input from the user and send values to the filter servlet 
-           and then printing the data on the window -->
-    <input type= "text" name = "name"><br>
-     <input type="password"  name = "id"><br>
-    <input type="submit"> <br>
-    </form>
+
+<h2>Login</h2>
+
+<form action="login" method="post">
+
+    <label>Username:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password" required><br><br>
+
+    <input type="submit" value="Login">
+
+</form>
+
 </body>
 </html>
